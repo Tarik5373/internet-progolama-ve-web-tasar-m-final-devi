@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendi Tanıtan Web Sitesi</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS dosyasını bağlayın -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="menu" style="display: flex;align-items: flex-start;">
+                <li><a href="index.html" >Ana Sayfa</a></li>
+                <li><a href="Hakımda.html">Hakkımda</a></li>
+                <li><a href="iletişim.html">iletişim</a></li>
+                <li><a href="https://github.com/tarikyardim" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a></li>
+                <li><a href="https://linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                <li><a href="https://www.youtube.com/@TARIKYARDIM" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a></li>
+                <li> <a href="https://Instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+            </a></li>
+            </ul>
+            
+ 
+        </nav>
+    </header>
+    <main>
+        <section class="photo-wall">
+            <img src="erkek.jpg"  class="photo"> 
+            <div class="text-container">
+                <h1>Tarık Yardım</h1>
+                <div class="animated-text">
+                    <p> Ben Tarık Yardım.</p>
+                    <p>Sinop Ayancık Meslek Yüksekokulunda</p>
+                    <p>İnternet Ağ ve Teklojileri Okuyoyum</p>
+                  
+                </div>
+            <div class="social-buttons">
+          
+            </div>
+        </section>
+    </main>
+      <script src="script.js"></script> <!-- JavaScript Dosyası -->
+      <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7EB88S8K6C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7EB88S8K6C');
+    </script>
+</body>
+</html>
